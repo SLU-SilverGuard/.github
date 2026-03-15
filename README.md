@@ -1,4 +1,4 @@
-# SLU-SilverGuard Organization Profile Repo
+# SLU-银龄守望(SilverGuard) Organization Profile Repo
 
 这个仓库是 GitHub 组织级特殊仓库 `.github`。
 
