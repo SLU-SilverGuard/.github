@@ -21,6 +21,7 @@
 | Android 家属端单测 | `guardian` | 有少量 JVM 单测 |
 | Web / Tauri 单测 | `frontend` | 未见 |
 | 构建验证 | 4 个业务仓库 | 已有 CI |
+| 依赖审计 | `backend` / `frontend` | 可本地执行锁文件或 npm audit |
 | 跨仓端到端联调 | 全系统 | 仍以人工联调为主 |
 
 ## 3. 当前自动化覆盖矩阵
@@ -53,8 +54,8 @@
 ### 5.1 已有
 
 - `backend`：PHP lint + `route:list` + PHPUnit
-- `companion`：assembleRelease
-- `guardian`：assembleRelease
+- `companion`：assembleDebug + assembleRelease
+- `guardian`：assembleDebug + assembleRelease
 - `frontend`：Web / Windows / Android 构建
 
 ### 5.2 当前缺口
@@ -63,6 +64,7 @@
 - `guardian` 单测未纳入 CI
 - `frontend` 无业务自动化测试
 - 无跨仓端到端测试
+- 依赖审计尚未统一纳入各仓库 CI
 
 ## 6. 推荐回归清单
 

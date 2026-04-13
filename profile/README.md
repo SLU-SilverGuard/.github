@@ -40,10 +40,10 @@ flowchart LR
 
 | 仓库 | 当前职责 | 主要技术栈 |
 | --- | --- | --- |
-| `backend` | 鉴权、设备归属、sync、family API、应用与娱乐管控云端状态 | Laravel 12、PHP 8.4 |
-| `companion` | 本地采集、自动同步、设备保护、应用与娱乐管控执行 | Kotlin、Compose、Hilt、Room、WorkManager |
-| `guardian` | Android 家属端设备查看与远程管理 | Kotlin、Compose、Retrofit、DataStore |
-| `frontend` | 多端家属端前端与打包 | Vue 3、TypeScript、Vite 7、Tauri 2 |
+| `backend` | 鉴权、设备归属、sync、family API、应用与娱乐管控云端状态 | Laravel 13、PHP 8.4 |
+| `companion` | 本地采集、自动同步、设备保护、应用与娱乐管控执行 | Kotlin 2.3.20、Compose、Hilt、Room、WorkManager 2.11.2、Retrofit 3、OkHttp 5 |
+| `guardian` | Android 家属端设备查看与远程管理 | Kotlin 2.3.20、Compose、Retrofit 3、OkHttp 5、DataStore |
+| `frontend` | 多端家属端前端与打包 | Vue 3、Vue Router 5、TypeScript 6、Vite 8、Tauri 2 |
 
 ## 当前产品事实
 

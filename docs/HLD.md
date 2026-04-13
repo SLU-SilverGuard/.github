@@ -118,18 +118,18 @@ sequenceDiagram
 
 ```mermaid
 flowchart TD
-    BCI["backend ci.yml\nroute:list + test"]
-    CCI["companion android-ci.yml\nassembleRelease"]
-    GCI["guardian android-ci.yml\nassembleRelease"]
-    FCI["frontend ci.yml\nweb + publish-web-dist + windows-desktop + android-signed"]
+    BCI["backend ci.yml\nphp-tests + assets"]
+    CCI["companion android-ci.yml\nassembleDebug + signed release APK"]
+    GCI["guardian android-ci.yml\nassembleDebug + signed release APK"]
+    FCI["frontend ci.yml\nweb(内联 dist 发布) + windows-desktop + android-signed"]
 ```
 
 ## 7. 当前技术事实
 
-- `backend`：Laravel 12 / PHP 8.4
-- `companion`：Kotlin + Compose + Hilt + Room + WorkManager
-- `guardian`：Kotlin + Compose + Hilt + Retrofit + DataStore
-- `frontend`：Vue 3 + TypeScript + Vite 7 + Tauri 2
+- `backend`：Laravel 13 / PHP 8.4
+- `companion`：Kotlin 2.3.20 + Compose + Hilt + Room + WorkManager 2.11.2 + Retrofit 3 + OkHttp 5
+- `guardian`：Kotlin 2.3.20 + Compose + Hilt + Retrofit 3 + OkHttp 5 + DataStore
+- `frontend`：Vue 3 + Vue Router 5 + TypeScript 6 + Vite 8 + Tauri 2
 
 ## 8. 架构约束
 

@@ -126,10 +126,10 @@
 
 | 仓库 | workflow | 当前验证重点 |
 | --- | --- | --- |
-| `backend` | `.github/workflows/ci.yml` | route:list + PHPUnit |
-| `companion` | `.github/workflows/android-ci.yml` | assembleRelease |
-| `guardian` | `.github/workflows/android-ci.yml` | assembleRelease |
-| `frontend` | `.github/workflows/ci.yml` | web build + dist publish + Windows build + Android signed build |
+| `backend` | `.github/workflows/ci.yml` | `php-tests` + assets build |
+| `companion` | `.github/workflows/android-ci.yml` | debug 验证构建 + signed release APK |
+| `guardian` | `.github/workflows/android-ci.yml` | debug 验证构建 + signed release APK |
+| `frontend` | `.github/workflows/ci.yml` | web build + 同 job 直推 dist 仓库 + Windows build + Android signed build |
 
 ## 6. 当前已知跨仓差异
 
