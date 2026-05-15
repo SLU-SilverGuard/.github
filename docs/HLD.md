@@ -126,10 +126,10 @@ flowchart TD
 
 ## 7. 当前技术事实
 
-- `backend`：Laravel 13 / PHP 8.4
-- `companion`：Kotlin 2.3.20 + Compose + Hilt + Room + WorkManager 2.11.2 + Retrofit 3 + OkHttp 5
-- `guardian`：Kotlin 2.3.20 + Compose + Hilt + Retrofit 3 + OkHttp 5 + DataStore
-- `frontend`：Vue 3 + Vue Router 5 + TypeScript 6 + Vite 8 + Tauri 2
+- `backend`：Laravel `^13.4` / PHP `^8.4`，Node 22 资产构建
+- `companion`：Gradle 9.4.1 + AGP 9.2.1 + Kotlin 2.3.21 + Compose BOM 2026.05.00 + Hilt + Room + WorkManager 2.11.2 + Retrofit 3 + OkHttp 5
+- `guardian`：Gradle 9.4.1 + AGP 9.2.1 + Kotlin 2.3.21 + Compose BOM 2026.05.00 + Hilt + Retrofit 3 + OkHttp 5 + DataStore
+- `frontend`：Vue 3.5.34 + Vue Router 5.0.7 + TypeScript 6.0.3 + Vite 8.0.13 + Tauri 2
 
 ## 8. 架构约束
 

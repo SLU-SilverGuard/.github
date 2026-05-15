@@ -30,13 +30,13 @@
 
 ## 仓库矩阵
 
-| 仓库 | 定位 | 当前交付物 |
-| --- | --- | --- |
-| `backend` | Laravel 服务端中枢 | API 服务代码 |
-| `companion` | Android 设备端 | release APK |
-| `guardian` | Android 家属端 | release APK |
-| `frontend` | Web / Windows / Tauri Android 家属端 | web dist / MSI / EXE / Android APK |
-| `.github` | 组织主页与总文档 | 文档与 profile |
+| 仓库 | 定位 | 当前版本 / 基线 | 当前交付物 |
+| --- | --- | --- | --- |
+| `backend` | Laravel 服务端中枢 | `1.1.2`，Laravel `^13.4` / PHP `^8.4` | API 服务代码 |
+| `companion` | Android 设备端 | `1.1.12`，Gradle 9.4.1 / AGP 9.2.1 / Kotlin 2.3.21 | release APK |
+| `guardian` | Android 家属端 | `1.1.2`，Gradle 9.4.1 / AGP 9.2.1 / Kotlin 2.3.21 | release APK |
+| `frontend` | Web / Windows / Tauri Android 家属端 | `0.1.1`，Vue 3.5.34 / Vite 8.0.13 / Tauri 2 | web dist / MSI / EXE / Android APK |
+| `.github` | 组织主页与总文档 | 组织级文档 | 文档与 profile |
 
 ## 统一术语
 

@@ -53,7 +53,7 @@
 
 ### 5.1 已有
 
-- `backend`：PHP lint + `route:list` + PHPUnit
+- `backend`：PHP lint + `route:list` + PHPUnit + assets build
 - `companion`：assembleDebug + assembleRelease
 - `guardian`：assembleDebug + assembleRelease
 - `frontend`：Web / Windows / Android 构建

@@ -133,8 +133,8 @@
 
 ## 6. 当前已知跨仓差异
 
-- `companion` README 版本信息此前落后于 `VERSION`
-- `frontend` README 之前把 CI 作业数写成 3，而 workflow 实际是 4
+- 各仓库版本、依赖基线与 README 已完成一次同步，后续发布仍需重复校对
+- `frontend` workflow 当前是 3 个 job：`web`、`windows-desktop`、`android-signed`
 - `frontend` 桌面端名称与生成 Android 资源名称存在差异
 - `companion` 已组装 `fall_events` 到 sync request，但 `backend` 当前未见消费逻辑
 - `guardian` 模板里的 `GUARDIAN_API_KEY` 当前未见代码消费
